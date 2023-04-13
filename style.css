@@ -1,0 +1,155 @@
+li{
+  list-style: none;
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.mac_card h2{
+  text-align: center;
+}
+
+.mac{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 76px;
+  margin: 60px 0;
+}
+
+.mac img{
+  width: 312px;
+}
+
+.mac_title{
+  font-size: 48px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.mac_title h2{
+  margin: 0;
+}
+
+
+.mac_color{
+  font-size: 24px;
+  color: #0071E3;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.mac_price{
+  margin: 0;
+}
+
+.color ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+.color_item{
+  width: 155px;
+  height: 42px;
+  background-color: #CFE7FF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.space{
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+}
+
+.storage_price{
+  display: block;
+  padding: 18px 20px;
+  border: 2px solid #CFE7FF;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.act{
+  border: 2px solid #007FFF;
+}
+
+.storage_price span{
+  margin-left: 157px;
+}
+
+.active{
+  background-color: #0071E3;
+}
+
+b{
+  font-weight: normal;
+}
+
+.menu{
+  width: 20%;
+  height: 100vh;
+  background: #CFE7FF;
+  border-radius: 0 10px 10px 0;
+  position: absolute;
+  top: 0;
+
+  font-size: 20px;
+  padding-top: 20px;
+  display: none;
+  animation: 2s ease;
+}
+
+.menu ul li{
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu_model{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  position: absolute;
+  top: 5%;
+}
+
+.model_1{
+  display: block;
+  width: 90%;
+  height: 2px;
+  background: #0071E3;
+  margin-bottom: 10px;
+}
+.model_2{
+  display: block;
+  width: 70%;
+  height: 2px;
+  background: #0071E3;
+  margin-bottom: 10px;
+
+}
+.model_3{
+  display: block;
+  width: 50%;
+  height: 2px;
+  background: #0071E3;
+}
+
+.menu_bg{
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 0, 0, .5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
